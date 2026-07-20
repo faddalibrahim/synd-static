@@ -6,4 +6,4 @@
 :HL["/uploads/images/pages/yogsec/about-1.jpg","image",{"fetchPriority":"high"}]
 :HL["/uploads/images/pages/yogsec/about-2.jpg","image"]
 :HL["/uploads/images/pages/yogsec/mission.jpg","image"]
-0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"initiatives","param":null,"prefetchHints":0,"slots":{"children":{"name":"yogsec","param":null,"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}}}},"staleTime":300,"buildId":"AMz1f5-MjPVj7J95QX_hE"}
+0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"initiatives","param":null,"prefetchHints":0,"slots":{"children":{"name":"yogsec","param":null,"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}}}},"staleTime":300,"buildId":"eKVEj0wp1-nd_brx94Bfz"}
