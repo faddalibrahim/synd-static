@@ -1,4 +1,4 @@
 deployment:
   tasks:
     - export DEPLOYPATH=/home/synd/public_html/
-    - /bin/cp -R * $DEPLOYPATH
+    - /usr/bin/rsync -av --delete ./ $DEPLOYPATH --exclude='.git'
