@@ -1,4 +1,5 @@
 deployment:
   tasks:
     - export DEPLOYPATH=/home/synd/public_html/
-    - /usr/bin/rsync -av --delete --exclude='.git' --exclude='.cpanel.yml' ./ $DEPLOYPATH
+    - /usr/bin/rsync -av --delete --exclude='.git' --exclude='.cpanel.yml' --exclude='uploads' ./ $DEPLOYPATH
+
