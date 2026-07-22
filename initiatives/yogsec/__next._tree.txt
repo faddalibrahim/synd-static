@@ -1,4 +1,4 @@
-:HL["/_next/static/chunks/0uk3-6a5ubo96.css","style"]
+:HL["/_next/static/chunks/0oafrzdr2lq9l.css","style"]
 :HL["/_next/static/media/HKNova_Bold-s.p.0mbn-h_ln0s6h.otf","font",{"crossOrigin":"","type":"font/otf"}]
 :HL["/_next/static/media/HKNova_Light-s.p.0-8xpd6zj2koj.otf","font",{"crossOrigin":"","type":"font/otf"}]
 :HL["/_next/static/media/HKNova_Medium-s.p.0p2a-xk2c3ikc.otf","font",{"crossOrigin":"","type":"font/otf"}]
@@ -6,4 +6,4 @@
 :HL["/uploads/images/pages/yogsec/about-1.jpg","image",{"fetchPriority":"high"}]
 :HL["/uploads/images/pages/yogsec/about-2.jpg","image"]
 :HL["/uploads/images/pages/yogsec/mission.jpg","image"]
-0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"initiatives","param":null,"prefetchHints":0,"slots":{"children":{"name":"yogsec","param":null,"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}}}},"staleTime":300,"buildId":"R7qsqcZV45NS-fKh-3Oov"}
+0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"initiatives","param":null,"prefetchHints":0,"slots":{"children":{"name":"yogsec","param":null,"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}}}},"staleTime":300,"buildId":"WwpgpTps9UwRyVAKh87ht"}
