@@ -57,7 +57,11 @@ try {
     $mail->send();
 
     echo json_encode(['success' => true]);
-} catch (Exception $e) {
+} catch (\Throwable $e) {
     http_response_code(500);
-    echo json_encode(['error' => 'Failed to send email']);
+    echo json_encode([
+        'error' => 'Failed to send email',
+        'message' => $e->getMessage(),
+        'mailError' => isset($mail) ? $mail->ErrorInfo : ''
+    ]);
 }
