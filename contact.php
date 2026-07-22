@@ -38,13 +38,21 @@ try {
 
     $mail->isSMTP();
     $mail->Host       = gethostbyname(SMTP_HOST);
-    $mail->SMTPAuth   = true;
-    $mail->Username   = SMTP_USER;
-    $mail->Password   = SMTP_PASS;
-    if (defined('SMTP_PORT') && SMTP_PORT == 465) {
-        $mail->SMTPSecure = PHPMailer::ENCRYPTION_SMTPS;
+    $isLocalhost = (SMTP_HOST === 'localhost' || SMTP_HOST === '127.0.0.1');
+
+    if ($isLocalhost) {
+        $mail->SMTPAuth   = false;
+        $mail->SMTPSecure = '';
+        $mail->SMTPAutoTLS = false;
     } else {
-        $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
+        $mail->SMTPAuth   = true;
+        $mail->Username   = SMTP_USER;
+        $mail->Password   = SMTP_PASS;
+        if (defined('SMTP_PORT') && SMTP_PORT == 465) {
+            $mail->SMTPSecure = PHPMailer::ENCRYPTION_SMTPS;
+        } else {
+            $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
+        }
     }
     $mail->Port       = SMTP_PORT;
 
