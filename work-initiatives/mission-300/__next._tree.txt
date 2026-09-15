@@ -3,9 +3,9 @@
 :HL["/_next/static/media/HKNova_Light-s.p.0-8xpd6zj2koj.otf","font",{"crossOrigin":"","type":"font/otf"}]
 :HL["/_next/static/media/HKNova_Medium-s.p.0p2a-xk2c3ikc.otf","font",{"crossOrigin":"","type":"font/otf"}]
 :HL["/_next/static/media/HKNova_Regular-s.p.17nwmexem.va-.otf","font",{"crossOrigin":"","type":"font/otf"}]
-:HL["/images/pages/mission-300/hero.jpg?v=1","image"]
-:HL["/images/pages/mission-300/photo-1.jpg?v=1","image"]
-:HL["/images/pages/mission-300/photo-2.jpg?v=1","image"]
-:HL["/images/pages/mission-300/photo-3.jpg?v=1","image"]
-:HL["/images/pages/mission-300/photo-4.jpg?v=1","image"]
-0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"work-initiatives","param":null,"prefetchHints":0,"slots":{"children":{"name":"mission-300","param":null,"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}}}},"staleTime":300,"buildId":"btjQVQAoHx1VemzHB8Z7Y"}
+:HL["/uploads/images/pages/mission-300/hero.jpg","image"]
+:HL["/uploads/images/pages/mission-300/photo-1.jpg","image"]
+:HL["/uploads/images/pages/mission-300/photo-2.jpg","image"]
+:HL["/uploads/images/pages/mission-300/photo-3.jpg","image"]
+:HL["/uploads/images/pages/mission-300/photo-4.jpg","image"]
+0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"work-initiatives","param":null,"prefetchHints":0,"slots":{"children":{"name":"mission-300","param":null,"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}}}},"staleTime":300,"buildId":"iua1bCXQA7OxnsI9lCFoy"}
